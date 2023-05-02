@@ -1,0 +1,14 @@
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/SergiGFT/ConfigData
+          username: SergiGFT
+          password: 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
+
+server:
+  port: 8001
+
+debug: false
